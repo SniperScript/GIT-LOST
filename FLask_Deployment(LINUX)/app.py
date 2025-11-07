@@ -15,13 +15,13 @@ try:
         # This one object contains both the TfidfVectorizer and the MultinomialNB
         pipeline = pickle.load(model_file)
         
-    print("✅ Full Classification Pipeline loaded successfully.")
+    print(" Full Classification Pipeline loaded successfully.")
 except FileNotFoundError as e:
-    print(f"❌ ERROR: Pipeline file not found - {e}. Ensure the .pkl file is in the same directory.")
+    print(f" ERROR: Pipeline file not found - {e}. Ensure the .pkl file is in the same directory.")
     pipeline = None
 except Exception as e:
     # Catch other pickle/unpickle errors and keep pipeline as None
-    print(f"❌ ERROR loading pipeline: {e}")
+    print(f" ERROR loading pipeline: {e}")
     pipeline = None
 
 @app.route('/predict', methods=['POST'])
