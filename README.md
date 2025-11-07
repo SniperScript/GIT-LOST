@@ -9,6 +9,7 @@ The platform features a dynamic frontend and is powered by machine learning mode
 
 ### ✨ Core Features
 
+
 Student & Alumni Dashboards: Separate, tailored views for students to find mentors and alumni to post opportunities.
 
 Intelligent Mentor Discovery: A searchable directory of alumni mentors, filterable by industry, skills, and company.
@@ -23,6 +24,7 @@ Events & Achievements: A section to highlight university news, student achieveme
 
 ### 🛠️ Tech Stack
 
+
 Frontend: Static HTML, Tailwind CSS
 
 Machine Learning: Python, Scikit-learn, Pandas, Jupyter Notebook
@@ -30,6 +32,7 @@ Machine Learning: Python, Scikit-learn, Pandas, Jupyter Notebook
 Backend: Deployed the ML models on streamlit so any user can just download the app1.py and app2.py from our repo and run them on their own local host server.
 
 ### 🤖 Machine Learning Models
+
 
 This repository contains two core machine learning models, detailed in Jupyter Notebooks.
 
@@ -63,6 +66,7 @@ Prediction: The trained model can predict whether a new, unseen piece of text is
 
 ### 🖥️ Frontend Components
 
+
 The frontend is a collection of static HTML files styled with Tailwind CSS, demonstrating the user interface and flow.
 
 login.html: Login page with differentiation for "Student" and "Alumni".
@@ -80,6 +84,7 @@ communities.html: A page showcasing different interest-based communities.
 events.html: A page displaying university news and student achievements.
 
 ### 🔮 Future Work
+
 
 Database: Add a database (like PostgreSQL, MySQL, or Firebase/Firestore) to store user data, posts, and community information.
 
