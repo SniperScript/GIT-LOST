@@ -7,7 +7,7 @@ A web platform designed to connect students and alumni of a specific university.
 
 The platform features a dynamic frontend and is powered by machine learning models to ensure a relevant and safe user experience.
 
-✨ Core Features
+### ✨ Core Features
 
 Student & Alumni Dashboards: Separate, tailored views for students to find mentors and alumni to post opportunities.
 
@@ -21,7 +21,7 @@ Community Groups: Allows users to join communities based on interests (e.g., "We
 
 Events & Achievements: A section to highlight university news, student achievements, and upcoming alumni events.
 
-🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 Frontend: Static HTML, Tailwind CSS
 
@@ -29,7 +29,7 @@ Machine Learning: Python, Scikit-learn, Pandas, Jupyter Notebook
 
 Backend: Deployed the ML models on streamlit so any user can just download the app1.py and app2.py from our repo and run them on their own local host server.
 
-🤖 Machine Learning Models
+### 🤖 Machine Learning Models
 
 This repository contains two core machine learning models, detailed in Jupyter Notebooks.
 
@@ -61,7 +61,7 @@ Multinomial Naive Bayes (MultinomialNB): A probabilistic classifier is trained o
 
 Prediction: The trained model can predict whether a new, unseen piece of text is spam or ham with a high degree of accuracy.
 
-🖥️ Frontend Components
+### 🖥️ Frontend Components
 
 The frontend is a collection of static HTML files styled with Tailwind CSS, demonstrating the user interface and flow.
 
@@ -79,7 +79,7 @@ communities.html: A page showcasing different interest-based communities.
 
 events.html: A page displaying university news and student achievements.
 
-🔮 Future Work
+### 🔮 Future Work
 
 Database: Add a database (like PostgreSQL, MySQL, or Firebase/Firestore) to store user data, posts, and community information.
 
